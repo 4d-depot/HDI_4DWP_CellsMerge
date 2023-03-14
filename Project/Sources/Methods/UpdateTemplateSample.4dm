@@ -19,6 +19,9 @@ End if
 
 OBJECT SET VISIBLE:C603(*; "btnDisplayValues"; (Form:C1466.tabTemplates.index>0))
 OBJECT SET VISIBLE:C603(*; "btnDisplayFormulas"; (Form:C1466.tabTemplates.index>0))
-OBJECT SET VISIBLE:C603(*; "Arrow"; (Form:C1466.tabTemplates.index>0))
+OBJECT SET VISIBLE:C603(*; "ArrowDisplayFormula"; (Form:C1466.tabTemplates.index>0))
 
+OBJECT SET VISIBLE:C603(*; "btnMerge"; (Form:C1466.tabTemplates.index<=0))
+OBJECT SET VISIBLE:C603(*; "btnUnmerge"; (Form:C1466.tabTemplates.index<=0))
+OBJECT SET VISIBLE:C603(*; "ArrowDisplayMerge"; (Form:C1466.tabTemplates.index<=0))
 

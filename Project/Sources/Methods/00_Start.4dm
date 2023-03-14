@@ -22,7 +22,7 @@ Case of
 		$options:=New object:C1471
 		
 		$options.title:=""
-		$options.title:=$options.title+"use break rows in 4D Write Pro tables"  //+"\n"
+		$options.title:=$options.title+"merge and unmerge cells in 4D Write Pro tables?"  //+"\n"
 		//$options.title:=$options.title+"tables in  documents?"
 		
 		$options.blog:="blog.4d.com"

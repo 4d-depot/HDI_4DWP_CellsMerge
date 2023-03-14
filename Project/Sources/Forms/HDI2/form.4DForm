@@ -274,13 +274,53 @@
 					"sizingX": "fixed",
 					"focusable": false
 				},
-				"Arrow": {
+				"ArrowDisplayFormula": {
 					"type": "picture",
 					"top": 747,
 					"left": 660,
 					"width": 124,
 					"height": 98,
-					"picture": "/RESOURCES/Images/Arrow.png",
+					"picture": "/RESOURCES/Images/ArrowBlue.png",
+					"pictureFormat": "scaled",
+					"sizingY": "move"
+				},
+				"btnUnmerge": {
+					"type": "button",
+					"top": 810,
+					"left": 520,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Unmerge cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "cell/split"
+				},
+				"btnMerge": {
+					"type": "button",
+					"top": 780,
+					"left": 520,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Merge cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "cell/merge"
+				},
+				"ArrowDisplayMerge": {
+					"type": "picture",
+					"top": 747,
+					"left": 660,
+					"width": 124,
+					"height": 98,
+					"picture": "/RESOURCES/Images/ArrowGreen.png",
 					"pictureFormat": "scaled",
 					"sizingY": "move"
 				}
@@ -291,12 +331,25 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4728,
+	"geometryStamp": 4752,
 	"editor": {
-		"activeView": "View 1",
+		"activeView": "BtnMergeUnmerge",
 		"defaultView": "View 1",
 		"views": {
-			"View 1": {}
+			"View 1": {},
+			"BtnFormula": {
+				"objects": [
+					"btnDisplayValues",
+					"btnDisplayFormulas"
+				]
+			},
+			"BtnMergeUnmerge": {
+				"objects": [
+					"btnUnmerge",
+					"btnMerge",
+					"ArrowDisplayMerge"
+				]
+			}
 		}
 	},
 	"menuBar": "Menu Bar #1"

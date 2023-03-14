@@ -38,8 +38,8 @@
 			"objects": {
 				"WParea": {
 					"type": "write",
-					"top": 190,
-					"left": 173,
+					"top": 128,
+					"left": 86,
 					"width": 880,
 					"height": 590,
 					"sizingX": "grow",
@@ -61,8 +61,8 @@
 				},
 				"WPtoolbar": {
 					"type": "subform",
-					"top": 100,
-					"left": 173,
+					"top": 38,
+					"left": 86,
 					"width": 880,
 					"height": 90,
 					"sizingX": "grow",
@@ -77,5 +77,5 @@
 			}
 		}
 	],
-	"geometryStamp": 3
+	"geometryStamp": 4
 }
