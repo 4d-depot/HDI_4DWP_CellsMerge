@@ -19,10 +19,12 @@ Case of
 		Form:C1466.trace:=False:C215
 		
 		Form:C1466.tabTemplates:=New object:C1471
-		Form:C1466.tabTemplates.values:=ds:C1482.Templates.all().orderBy("number asc").toCollection("name").extract("name")
+		Form:C1466.tabTemplates.values:=ds:C1482.Templates.query("number > 0").orderBy("number asc").toCollection("name").extract("name")
 		Form:C1466.tabTemplates.index:=0
 		Form:C1466.tabTemplates.currentValue:=Form:C1466.tabTemplates.values[0]
 		
+		OBJECT SET ENABLED:C1123(*; "btnDisplayFormulas"; False:C215)
+		OBJECT SET ENABLED:C1123(*; "btnDisplayValues"; True:C214)
 		
 		SET TIMER:C645(-1)
 		
@@ -44,6 +46,3 @@ Case of
 		
 		
 End case 
-
-
-

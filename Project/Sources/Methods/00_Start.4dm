@@ -28,7 +28,7 @@ Case of
 		$options.blog:="blog.4d.com"
 		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"
 		
-		$options.minimumVersion:="2000"  // 2000 means 20.0   2020 means 20R2, 2001 means 20.1 (do not use !)
+		$options.minimumVersion:="2020"  // 2000 means 20.0   2020 means 20R2, 2001 means 20.1 (do not use !)
 		
 		$options.license:=4D Write license:K44:2  // IF ANY NEEDED
 		

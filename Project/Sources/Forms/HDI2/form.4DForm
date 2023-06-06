@@ -144,7 +144,8 @@
 					"borderStyle": "none",
 					"events": [],
 					"showBackground": true,
-					"displayFormulaAsSymbol": true
+					"displayFormulaAsSymbol": true,
+					"method": "ObjectMethods/WParea1.4dm"
 				},
 				"WPTemplate": {
 					"type": "write",
@@ -190,7 +191,7 @@
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Display formulas",
+					"text": "Display template",
 					"focusable": false,
 					"method": "ObjectMethods/btnDisplayFormulas.4dm",
 					"events": [
@@ -261,8 +262,8 @@
 				"Check Box": {
 					"type": "checkbox",
 					"text": "Highlight formulas",
-					"top": 807,
-					"left": 340,
+					"top": 928,
+					"left": 304,
 					"width": 176,
 					"height": 26,
 					"events": [
@@ -331,13 +332,14 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4752,
+	"geometryStamp": 4754,
 	"editor": {
 		"activeView": "BtnMergeUnmerge",
 		"defaultView": "View 1",
 		"views": {
 			"View 1": {},
 			"BtnFormula": {
+				"visible": false,
 				"objects": [
 					"btnDisplayValues",
 					"btnDisplayFormulas"

@@ -274,11 +274,297 @@
 					"sizingY": "move",
 					"fontWeight": "bold",
 					"stroke": "#0000cd"
+				},
+				"btnUnmerge": {
+					"type": "button",
+					"top": 780,
+					"left": 725,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Unmerge cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "cell/split"
+				},
+				"btnMerge": {
+					"type": "button",
+					"top": 754,
+					"left": 725,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Merge cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "cell/merge"
+				},
+				"btnMerge1": {
+					"type": "button",
+					"top": 766,
+					"left": 416,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Merge cells Code",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge1.4dm"
+				},
+				"btnMerge2": {
+					"type": "button",
+					"top": 800,
+					"left": 416,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Get cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge2.4dm"
+				},
+				"btnMerge3": {
+					"type": "button",
+					"top": 834,
+					"left": 416,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Paint column 2",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge3.4dm"
+				},
+				"btnMerge4": {
+					"type": "button",
+					"top": 868,
+					"left": 416,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Paint row 2",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge4.4dm"
+				},
+				"btnMerge5": {
+					"type": "button",
+					"top": 800,
+					"left": 496,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Get cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge5.4dm"
+				},
+				"btnMerge6": {
+					"type": "button",
+					"top": 800,
+					"left": 576,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Get cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge6.4dm"
+				},
+				"btnMerge7": {
+					"type": "button",
+					"top": 800,
+					"left": 656,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Get cells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge7.4dm"
+				},
+				"btnMerge8": {
+					"type": "button",
+					"top": 834,
+					"left": 576,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Paint column 3",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge8.4dm"
+				},
+				"btnMerge9": {
+					"type": "button",
+					"top": 868,
+					"left": 576,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Paint row 3",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge9.4dm"
+				},
+				"btnMerge10": {
+					"type": "button",
+					"top": 780,
+					"left": 56,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete col1",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge10.4dm"
+				},
+				"btnMerge11": {
+					"type": "button",
+					"top": 810,
+					"left": 56,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete col2",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge11.4dm"
+				},
+				"btnMerge12": {
+					"type": "button",
+					"top": 840,
+					"left": 56,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete col3",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge12.4dm"
+				},
+				"btnMerge13": {
+					"type": "button",
+					"top": 780,
+					"left": 220,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete row 1",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge13.4dm"
+				},
+				"btnMerge14": {
+					"type": "button",
+					"top": 810,
+					"left": 220,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete row 2",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge14.4dm"
+				},
+				"btnMerge15": {
+					"type": "button",
+					"top": 840,
+					"left": 220,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete row 3",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge15.4dm"
+				},
+				"btnMerge16": {
+					"type": "button",
+					"top": 870,
+					"left": 220,
+					"width": 150,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Delete row 4",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed",
+					"action": "",
+					"method": "ObjectMethods/btnMerge16.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 155,
+	"geometryStamp": 242,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
