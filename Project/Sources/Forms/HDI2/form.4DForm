@@ -292,7 +292,7 @@
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Unmerge cells",
+					"text": "Split cells",
 					"focusable": false,
 					"events": [
 						"onClick"
